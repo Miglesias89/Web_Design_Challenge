@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang = "en-us">
+
+  <head>
+      <meta charset = "UTF-8">
+      <title>Max Temperature</title>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      <link rel="stylesheet" href="style.css">
+  </head>
+
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand mr-auto" href="landing_page.html">Latitude</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbarSupportedContent" style="z-index: 10">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Plots
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="lat_temp_viz.html">Temperature</a>
+                    <a class="dropdown-item" href="lat_hum_viz.html">Humidity</a>
+                    <a class="dropdown-item" href="lat_cloud_viz.html">Cloudiness</a>
+                    <a class="dropdown-item" href="lat_wind_viz.html">Wind Speed</a>
+                  </div>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="comparisons_pg.html">Comparison<span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="table.html">Data</a>
+                  </li>
+                </ul>
+              </div>
+          </nav>
+
+          <div class = "container-fluid">
+            <div class = "row">
+                <div class = "col-lg-7 col-md-12">
+                  <div class = "description-content">
+                    <h1 class = "description-header">Max Temperature</h1>
+                      <hr class = "solid">
+                        <img src = "https://nu.bootcampcontent.com/NU-Coding-Bootcamp/nu-chi-data-pt-02-2020-u-c/raw/master/Homework/11-Web/Instructions/Resources/assets/images/Fig1.png" alt = "Temperature" class = "center">
+                          <p>
+                              As expected, the weather becomes significantly warmer as one approaches the 
+                              equator (0 Deg. Latitude). More interestingly, however, is the face that the 
+                              souther hemisphere tends to be warmer this time of year than the northern hemisphere. 
+                              This may be due to the tilt of the earth at the time of the year this data was gathered. 
+                          </p>
+                        </div>
+                </div class = "col-lg-7 col-md-12">
+
+                <div class = "col-lg-5 col-md-12">
+                  <div class = "imageViz-section">
+                    <div class = "description-content">
+                        <h1 class = "description-header">Visualization</h1>
+                        <hr class = "solid">
+                            <a target = "_blank" href = "http://localhost:52330/lat_temp_viz.html" >
+                                <img width="250" src = "https://nu.bootcampcontent.com/NU-Coding-Bootcamp/nu-chi-data-pt-02-2020-u-c/raw/master/Homework/11-Web/Instructions/Resources/assets/images/Fig1.png" alt = "Temperature">
+                            </a>
+                            <a target = "_blank" href = "http://localhost:52330/lat_hum_viz.html">
+                                <img width="250" src = "https://nu.bootcampcontent.com/NU-Coding-Bootcamp/nu-chi-data-pt-02-2020-u-c/raw/master/Homework/11-Web/Instructions/Resources/assets/images/Fig2.png" alt = "Humidity">
+                            </a>
+                            <a target = "_blank" href = "http://localhost:52330/lat_cloud_viz.html">
+                                <img width="250" src = "https://nu.bootcampcontent.com/NU-Coding-Bootcamp/nu-chi-data-pt-02-2020-u-c/raw/master/Homework/11-Web/Instructions/Resources/assets/images/Fig3.png" alt = "Cloudiness">
+                            </a>
+                            <a target = "_blank" href = "http://localhost:52330/lat_wind_viz.html">
+                                <img width="250" src = "https://nu.bootcampcontent.com/NU-Coding-Bootcamp/nu-chi-data-pt-02-2020-u-c/raw/master/Homework/11-Web/Instructions/Resources/assets/images/Fig4.png" alt = "Wind Speed">
+                            </a>
+                    </div>
+                  </div class = "col-lg-5 col-md-12">
+              </div>
+            </div>
+          </div>
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+      <footer>
+        <div class = "footer">&copy; Copyright dbaustia 2019</div>
+      </footer>
+
+    </body>
+
+</html>
